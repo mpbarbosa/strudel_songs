@@ -1,1 +1,5 @@
 sound("bd hh sd bd hh bd hh sd")
+
+# Por Enquanto - Legião Urbana
+setcpm(60/4)
+sound("bd - sd bd - sd - - bd - sd bd - sd - bd")
