@@ -17,3 +17,8 @@ setcpm(60/4)
 sound(`
 [bd   -    sd   bd]   [-    sd   -    -]    [bd   -    sd   bd]   [-    sd   -    bd],
 [hh:0 hh:1 hh:0 hh:1] [hh:0 hh:1 hh:0 hh:1] [hh:0 hh:1 hh:0 hh:1] [hh:0 hh:0 hh:1 hh:0]`).bank("RolandTR909")
+
+setcpm(57/4)
+sound(`
+[bd:4  -   sd:1 bd:1] [-  sd -  -]  [bd -  sd:1 bd] [-  sd -  bd],
+[hh:1 hh:2 hh:3 hh:4] [hh hh hh hh] [hh hh hh   hh] [hh hh hh hh]`).bank("RolandD110")
