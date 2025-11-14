@@ -12,3 +12,8 @@ sound("bd - sd bd - sd - - bd - sd bd - sd - bd , hh:1 hh:1 hh:1 hh:1 hh:1 hh:1 
 
 setcpm(55/4)
 sound("bd - sd bd - sd - - bd - sd bd - sd - bd , hh:0 hh:1 hh:0 hh:1 hh:0 hh:1 hh:0 hh:1 hh:0 hh:1 hh:0 hh:1 hh:0 hh:0 hh:1 hh:0").bank("RolandTR909")
+
+setcpm(60/4)
+sound(`
+[bd   -    sd   bd]   [-    sd   -    -]    [bd   -    sd   bd]   [-    sd   -    bd],
+[hh:0 hh:1 hh:0 hh:1] [hh:0 hh:1 hh:0 hh:1] [hh:0 hh:1 hh:0 hh:1] [hh:0 hh:0 hh:1 hh:0]`).bank("RolandTR909")
