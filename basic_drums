@@ -6,3 +6,6 @@ sound("bd - sd bd - sd - - bd - sd bd - sd - bd")
 
 setcpm(60/4)
 sound("bd - sd bd - sd - - bd - sd bd - sd - bd , hh hh hh hh hh hh hh hh hh hh hh hh hh hh hh hh")
+
+setcpm(55/4)
+sound("bd - sd bd - sd - - bd - sd bd - sd - bd , hh:1 hh:1 hh:1 hh:1 hh:1 hh:1 hh:1 hh:1 hh:1 hh:1 hh:1 hh:1 hh:1 hh:1 hh:1 hh:1")
