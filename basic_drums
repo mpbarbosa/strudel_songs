@@ -22,3 +22,28 @@ setcpm(57/4)
 sound(`
 [bd:4  -   sd:1 bd:1] [-  sd -  -]  [bd -  sd:1 bd] [-  sd -  bd],
 [hh:1 hh:2 hh:3 hh:4] [hh hh hh hh] [hh hh hh   hh] [hh hh hh hh]`).bank("RolandD110")
+
+# Birds of a Feather - Billie Eilish
+# Drum Pattern
+setcpm(105/4)
+sound(`
+[bd:1 -  -  bd:1] [sd:1 -  bd:1 - ] [-  -  bd:1 - ] [sd:1 -  -  -],
+[hh:0 hh hh hh]   [hh   hh hh   hh] [hh hh hh   hh] [hh   hh hh hh]`
+).bank("RolandTR808")
+
+# Kraftwerk - The Model
+# Drum Pattern
+setcpm(30/4)
+sound("[ bd [sd bd] bd sd] [bd [sd bd] bd sd] [bd [sd bd] bd sd] [bd [sd bd] bd [sd sd]]").bank('Bossdr110')
+
+# Linkin Park - In the End
+# Drum Pattern
+setcpm(50/4)
+sound("[[bd bd] [bd bd] sd - - bd sd [- bd]] [[bd bd] [bd bd] sd - - bd sd -]").bank('Akaixr10')
+
+# Nenehum de Nós - Camila Camila
+# Drum Pattern
+setcpm(60/4)
+sound(`
+[[bd -  - ] [sd - bd] [bd - -] [sd - -]] [[bd - bd ] [sd - bd] [bd - -] [sd - -]],
+[[hh hh hh] [hh hh hh] [hh hh hh] [hh hh hh]] [[hh hh hh] [hh hh hh] [hh hh hh] [hh hh hh]]`).bank('Akaixr10') 
